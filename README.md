@@ -16,4 +16,7 @@ Selasa 12 Agustus 2025
   Pada LAN, alamat IP default adalah 192.168.88.1/24. DHCP Server aktif, sehingga setiap perangkat yang terhubung ke Mikrotik akan memperoleh IP address secara otomatis.  
 ![server](server.PNG)
   4. WAN Configuration  
-  Gateway diarahkan ke port ether1. Firewall IPv4 aktif, NAT berfungsi membagi alamat IP publik dari ISP ke seluruh perangkat LAN, dan DNS mengonversi nama domain menjadi alamat IP. Dengan konfigurasi ini, router dapat langsung digunakan hanya dengan menghubungkan kabel internet ke ether1.
+  Gateway diarahkan ke port ether1. Firewall IPv4 aktif, NAT berfungsi membagi alamat IP publik dari ISP ke seluruh perangkat LAN, dan DNS mengonversi nama domain menjadi alamat IP. Dengan konfigurasi ini, router dapat langsung digunakan hanya dengan menghubungkan kabel internet ke ether1.  
+
+# Kesimpulan
+  Default Configuration di Mikrotik sangat cocok untuk orang awam, karna bisa langsung terconnect ke internet tanpa harus konfigurasi lagi.
