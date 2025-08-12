@@ -5,7 +5,7 @@ Selasa 12 Agustus 2025
   Saat pertamakali menjalankan Mikrotik dengan default configuration kita tidak bisa mengakses dengan port ether1, karna firewall memblokir akses selain LAN, sedangkan port ether1 adalah WAN.  Bisa dilihat di **Firewalls > Filter Rules**
   ![fire](firewall.PNG)  
   Dan untuk melihat interface WAN (Wide Area Network) itu yang mana, kita bisa lihat di **Interfaces > Interfaces List**  
-  ![intf](intface.PNG)  
+  ![intf](intlist.PNG)  
   Saat sudah login akan tampil/muncul pop up window yang berisi keterangan apa saja konfigurasi default mikrotik.  
   ![default](default.PNG)  
   Pada gambar diatas, terlihat bahwa beberapa konfigurasi default Mikrotik antara lain:  
@@ -15,5 +15,5 @@ Selasa 12 Agustus 2025
   2. LAN Configuration  
   Pada LAN, alamat IP default adalah 192.168.88.1/24. DHCP Server aktif, sehingga setiap perangkat yang terhubung ke Mikrotik akan memperoleh IP address secara otomatis.  
 ![server](server.PNG)
-  4. WAN Configuration
+  4. WAN Configuration  
   Gateway diarahkan ke port ether1. Firewall IPv4 aktif, NAT berfungsi membagi alamat IP publik dari ISP ke seluruh perangkat LAN, dan DNS mengonversi nama domain menjadi alamat IP. Dengan konfigurasi ini, router dapat langsung digunakan hanya dengan menghubungkan kabel internet ke ether1.
