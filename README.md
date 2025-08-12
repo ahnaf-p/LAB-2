@@ -1,7 +1,7 @@
 # LAB-2
 Selasa 12 Agustus 2025  
   
-# Default COnfiguration Mikrotik  
+# Default Configuration Mikrotik  
   Saat pertamakali menjalankan Mikrotik dengan default configuration kita tidak bisa mengakses dengan port ether1, karna firewall memblokir akses selain LAN, sedangkan port ether1 adalah WAN.  Bisa dilihat di **Firewalls > Filter Rules**
   ![fire](firewall.PNG)  
   Dan untuk melihat interface WAN (Wide Area Network) itu yang mana, kita bisa lihat di **Interfaces > Interfaces List**  
