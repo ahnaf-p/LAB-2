@@ -19,4 +19,4 @@ Selasa 12 Agustus 2025
   Gateway diarahkan ke port ether1. Firewall IPv4 aktif, NAT berfungsi membagi alamat IP publik dari ISP ke seluruh perangkat LAN, dan DNS mengonversi nama domain menjadi alamat IP. Dengan konfigurasi ini, router dapat langsung digunakan hanya dengan menghubungkan kabel internet ke ether1.  
 
 # Kesimpulan
-  Default Configuration di Mikrotik sangat cocok untuk orang awam, karna bisa langsung terconnect ke internet tanpa harus konfigurasi lagi.
+  Default Configuration di Mikrotik sangat cocok untuk orang awam, karna bisa langsung terconnect ke internet tanpa harus konfigurasi lagi. Kita tidak bisa mengakses dengan port ether1, karna firewall memblokir akses selain LAN, sedangkan port ether1 adalah WAN.
